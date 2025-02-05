@@ -1,0 +1,42 @@
+body {
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.container {
+    background: orange;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 800px;
+}
+input {
+    width: 80%;
+    padding: 15px;
+    margin: 10px 0;
+}
+button {
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 10px;
+}
+.feature {
+    text-align: center;
+    width: 20%;
+}
+.feature p {
+    margin: 5px 0;
+}
+.feature img {
+    width: 50px;
+    height: 50px;
+}
